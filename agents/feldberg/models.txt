@@ -1,0 +1,20 @@
+trained_model -> 39501, 48998, states4
+trained_model1 -> trained_model + 68000 ^
+trained_model2 -> trained_model1 + 17000
+trained_model0.1 -> trained_model1 + short
+trained_model3 -> trained_model2 + states6
+trained_model4 -> trained_model1 + 38000
+trained_model5 -> trained_model1 + 48998 ^
+trained_model6 -> trained_model5 + 68000 X
+
+
+model (50 epochs) -> 39501
+model2 -> model + 48998
+model3 -> model2 + 68000
+model4 -> model3 + 17000
+model5 -> model4 + states6
+model6 -> model5 + 38000 
+model7 -> model6 + 37000 X
+model8-> model7 + 37700 X
+model9 -> model6 + 46000
+model10 -> model9 + start
